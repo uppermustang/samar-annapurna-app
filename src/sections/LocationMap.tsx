@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import L from 'leaflet'
-import { MapContainer, TileLayer, Marker, Popup, Tooltip, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import 'leaflet-defaulticon-compatibility'
 
 const HOTEL_POSITION: [number, number] = [28.961689, 83.801398]

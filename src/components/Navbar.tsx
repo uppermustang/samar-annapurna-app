@@ -38,8 +38,6 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const handleNavClick = () => setMobileOpen(false)
-
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, to: string) => {
     setMobileOpen(false)
     if (to === '/') {
